@@ -1,3 +1,6 @@
+---
+title: detail.conf
+---
 # detail.conf
 
 The detail.conf configuration file defines all available detail views

@@ -1,10 +1,13 @@
-# Default Theme {#defaulttheme}
+---
+title: Default Theme
+---
+# Default Theme
 
 The default theme is comprised of all the basic features you\'ll need to
 publish your collection to the web, including search and browse
 functions, online exhibitions, finding aids, asset detail pages and
 more! A live demo of Pawtucket is available at
-<http://demo.collectiveaccess.org/pawtucket/>.
+http://demo.collectiveaccess.org/pawtucket/.
 
 Out of the box, Pawtucket includes the following tools:
 
@@ -54,4 +57,4 @@ base code is consistent across all installations, that your theme will
 receive necessary updates in the future without affecting the custom
 areas of your theme.
 
-To begin, visit `defining`{.interpreted-text role="ref"}.
+To begin, visit [creating a theme](creating_theme.md).

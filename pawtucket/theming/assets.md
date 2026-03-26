@@ -1,3 +1,6 @@
+---
+title: Assets
+---
 # Assets
 
 The assets folder contains any external files, including graphics,

@@ -1,9 +1,12 @@
-# Defining Your Own Theme {#defining}
+---
+title: Defining Your Own Theme
+---
+# Defining Your Own Theme
 
 In order to display custom metadata, graphics and styling to your
 Pawtucket installation, you\'ll need to define a custom theme. A custom
 theme selectively overrides the areas of the
-`defaulttheme`{.interpreted-text role="ref"} that you\'d like to tailor
+[default theme](default_theme.md) that you\'d like to tailor
 to your project. Nearly all custom themes will use at least some views
 from default theme to function. In fact, it is to your advantage to
 override *only* the views that are necessary for customization, as this
@@ -13,10 +16,10 @@ the Pawtucket base code as they become available.
 ## Creating a theme
 
 At it\'s most basic, a custom theme needs only to have folders for
-`assets`{.interpreted-text role="ref"} (such as graphic, javascript and
-css files), `conf`{.interpreted-text role="ref"} (these contain the
+[assets](assets.md) (such as graphic, javascript and
+css files), [conf](conf.md) (these contain the
 options you\'ll need to set to customize your search and other site
-functions), and `views`{.interpreted-text role="ref"} (these control the
+functions), and [views](views.md) (these control the
 layout and output of your data).
 
 A blank theme named **copyme** comes pre-installed with your Pawtucket
@@ -56,16 +59,14 @@ liking. Since we are reference a new graphic, you\'ll also want to
 upload your new logo to the assets folder in
 themes/mytheme/assets/pawtucket/graphics/.
 
-:::: tip
-::: title
-Tip
-:::
+:::tip
 
 Only copy the views from the default theme that are needed for your
 customized design. This will make updates more efficient by ensuring
 that your Pawtucket system draws on the default theme wherever possible,
 and reduces the need to manually update code in your views.
-::::
+
+:::
 
 If you navigate to themes/mytheme/assets/pawtucket/css, you\'ll notice
 that it contains one blank css stylesheet, named **theme.css**. This is
@@ -74,10 +75,10 @@ styles employed by the default theme. Simply add the styles you\'d like
 to override to this file and the changes will be reflected in your
 Pawtucket site. You can also add any additional css files you\'d like to
 use to this css folder - just follow the instructions for loading
-additional `assets`{.interpreted-text role="ref"}.
+additional [assets](assets.md).
 
 A great deal of common configuration options are available simply by
-editing `conf`{.interpreted-text role="ref"}. Please check the
+editing [conf](conf.md). Please check the
 documentation for these files individually for a guide to the options
 available.
 

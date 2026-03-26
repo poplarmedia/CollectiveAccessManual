@@ -1,7 +1,7 @@
+---
+title: Setup.php
+---
 # Setup.php
-
-::: {.contents local=""}
-:::
 
 In the main directory of your Providence install, there is a file called
 *setup.php.dist*. Make a copy of this file and rename it *setup.php*.
@@ -83,16 +83,14 @@ __CA_SMTP_SSL__ = SSL method to use for outgoing mail connection (set to SSL or 
 
 Set your preferred time zone here. The default is to use US Eastern
 Standard Time. A list of valid time zone settings is available at
-<http://us3.php.net/manual/en/timezones.php>.
+http://us3.php.net/manual/en/timezones.php.
 
-:::: note
-::: title
-Note
-:::
+:::note
 
 When importing data, you should switch to value \'UTC\' *before* import,
 or else dates may import incorrectly.
-::::
+
+:::
 
 ``` none
 date_default_timezone_set('America/New_York');
@@ -119,15 +117,13 @@ set by the user, prior to login or prior to setting your preferred
 locale in user preferences for the first time. You should set this to
 the locale in which your users generally work.
 
-:::: note
-::: title
-Note
-:::
+:::note
 
 Whatever locale you set here *MUST* be present in your system locale
 list. The default value is US/English, which exists in most
 configurations.
-::::
+
+:::
 
 ``` none
 if (!defined("__CA_DEFAULT_LOCALE__")) {
