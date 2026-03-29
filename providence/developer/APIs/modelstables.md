@@ -1,6 +1,6 @@
 ---
 title: API Models and Tables
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # API: Models and Tables
