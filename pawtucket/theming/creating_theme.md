@@ -1,5 +1,6 @@
 ---
 title: Defining Your Own Theme
+sidebar_position: 2
 ---
 # Defining Your Own Theme
 
