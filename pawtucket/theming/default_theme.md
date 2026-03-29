@@ -1,5 +1,6 @@
 ---
 title: Default Theme
+sidebar_position: 1
 ---
 # Default Theme
 

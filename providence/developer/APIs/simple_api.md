@@ -1,5 +1,6 @@
 ---
 title: Simple API
+sidebar_position: 3
 ---
 
 From CollectiveAccess Documentation
