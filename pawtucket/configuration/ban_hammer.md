@@ -1,8 +1,13 @@
+---
+title: ban_hammer.conf
+sidebar_position: 4
+---
+## Overview
 Collectiveaccess provides a tool, available in Pawtucket, called the 'Ban Hammer' to automatically block IPs based on provided settings.
 
 Note that while only Pawtucket implements automatic blocking, `caUtils` in Providence can be used to clear bans as they share the database.
 
-# In built commands
+## In built commands
 
 ```
 ./support/bin/caUtils help |grep -C2 ban
@@ -18,7 +23,7 @@ These lists can be cleared via CLI but NOT queried. Inspecting ban/whitelist req
 In future it might also be possible to [query bans from caUtils](https://github.com/collectiveaccess/providence/issues/1646) but that functionality is
 not currently available.
 
-# Querying the database
+## Querying the database
 
 Select an appropriate database
 ```

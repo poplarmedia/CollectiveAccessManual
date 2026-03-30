@@ -1,10 +1,10 @@
 ---
 title: detail.conf
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # detail.conf
-
+## Overview
 The detail.conf configuration file defines all available detail views for a theme. Details are, as their name implies, detailed metadata displays for a specific item — a *subject*. At a minimum, a detail will be bound to a table. A detail may be designed to display data for one of the following tables: objects, entities, occurrences, places, or collections.
 
 You may define any number of details. Each will have a unique code that is used in Pawtucket URLs to reference the detail.
