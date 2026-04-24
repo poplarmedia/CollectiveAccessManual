@@ -7,8 +7,8 @@ sidebar_position: 1
 CollectiveAccess offers several web-based APIs for data access and manipulation:
 
 - GraphQL
-- Simple
 - JSON
+- Simple
 - IIIF
 - OAI-PMH
 
