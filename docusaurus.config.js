@@ -171,6 +171,11 @@ const config = {
         },
       },
     }),
-};
+	markdown: {
+	    hooks: {
+	      onBrokenMarkdownImages: 'warn',
+	    },
+	  },
+	};
 
 export default config;
