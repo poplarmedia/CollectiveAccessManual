@@ -1,6 +1,6 @@
 ---
 title: JSON API (Legacy)
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # JSON API (Legacy)
